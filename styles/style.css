@@ -32,7 +32,7 @@
 }
 
 .header__title {
-  width: 730px;
+  max-width: 730px;
   align-self: center;
   font-size: 102px;
   line-height: 96px;
@@ -46,7 +46,7 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
-  width: 388px;
+  max-width: 388px;
   margin: 0;
   z-index: 2;
   position: absolute;
@@ -96,7 +96,7 @@
 }
 
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -160,7 +160,7 @@ padding: 100px 0;
   margin: auto;
 }
 
-.table__cell_theme_clear {
+.table__cell {
   width: 250px;
   margin-right: 0;
   margin-top: 60px;
@@ -188,7 +188,7 @@ padding: 100px 0;
 /* Секция Feynman */
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
   background-position: left bottom;
@@ -198,7 +198,7 @@ padding: 100px 0;
 }
 
 .feynman__title{
-  width: 648px;
+  max-width: 648px;
   padding-top: 100px;
   margin: 0 auto 70px;
   text-align: center;
@@ -238,10 +238,14 @@ padding: 100px 0;
 
 .section-title_theme_dark {
 color: white;
+position: relative;
+z-index: 1;
 }
 
 .section-subtitle_theme_dark{
 color: white;
+position: relative;
+z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -272,11 +276,11 @@ color: white;
   padding: 60px 0 40px;
   background-color: #1f1f1f;
   box-sizing: border-box;
+  display: flex;
 }
 
-.columns {
+.footer__columns {
   width: 90%;
-  min-height: 350px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
