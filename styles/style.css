@@ -175,7 +175,6 @@ padding: 100px 0;
   margin: 0;
 }
 
-
 .table__text {
   font-size: 18px;
   line-height: 1.2;
@@ -197,7 +196,7 @@ padding: 100px 0;
   position: relative;
 }
 
-.feynman__title{
+.feynman__title {
   max-width: 648px;
   padding-top: 100px;
   margin: 0 auto 70px;
@@ -242,7 +241,7 @@ position: relative;
 z-index: 1;
 }
 
-.section-subtitle_theme_dark{
+.section-subtitle_theme_dark {
 color: white;
 position: relative;
 z-index: 1;
