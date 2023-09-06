@@ -8,3 +8,5 @@
 - на фигуры применена анимация
 - на ссылки добавлен hover state и transition
 - встроены видео с помощью технологии iframe
+
+* [Ссылка на сайт](https://64f7e35c9d6a7a24bdb4f27a--superlative-cactus-b40829.netlify.app/)
