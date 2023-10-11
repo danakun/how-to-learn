@@ -1,12 +1,14 @@
-#  Сайт Научиться учиться.
+# "Learn to Learn" Website
+Practical work for the second sprint.
 
-## Практическая работа второго спринта.
+Description:
+This project uses HTML5 and CSS for layout, with the structure organized following the principles of Nested BEM.
 
-**Описание**
-Для макетирования использованы HTML5 и CSS, структура организована по принципу Nested BEM.
-### В текущей версии добавлены:
-- на фигуры применена анимация
-- на ссылки добавлен hover state и transition
-- встроены видео с помощью технологии iframe
+In the current version, the following features have been added:
+- Animation applied to shapes
+- Hover state and transition added to links
+- Embedded videos using the iframe technology
 
-* [Ссылка на сайт](https://64f7e35c9d6a7a24bdb4f27a--superlative-cactus-b40829.netlify.app/)
+* [Link to the Website](https://64f7e35c9d6a7a24bdb4f27a--superlative-cactus-b40829.netlify.app/)
+
+
